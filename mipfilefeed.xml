@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/senthilsecude/feed/refs/heads/main/mipfilefeed.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Mip decryptor</name>
+  <summary xml:lang="en">Decryptor</summary>
+  <category>Office</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="1.0" id="sha256new_DQOGM4NICYMXQZU6VH323FTF7WSGQUHC5QTGBSFTKUEACLE5KVTA">
+    <command name="run" path="hc.mipfile.exe" />
+    <manifest-digest sha256new="DQOGM4NICYMXQZU6VH323FTF7WSGQUHC5QTGBSFTKUEACLE5KVTA" />
+    <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile.zip" size="15365448" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="hc.mipfile" />
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJnSEbQAAoJEIaH8txZyVYTvBEH+gNafBo62X2ptaE6bAYpjXRv6XSXpvMT75zvNjwkggX1SMfRWMOiTojM0nOWFi0HnWueKInnp26d4BeWQnE/tuNV7D3ePG5r6gVu73+QZWDyk58DtQq8vIJJjZ/jo6xI6EFAT/sL/pQvkARgioeeR7BjJpaXhdfd7s3lATxSlX+tVdL4JcwUkXE5si/Ote3Cxc7pr1QIoj7nYSKtUiCL+o76MkRZ27Yy3hnAYn4FaOjACgtwZm/1liV4AonF667W2r79OQuajlmCFNdRj/9SAEyDJYTKysKg/Zcv6xh74Ji/pv8vY9019bXTjYcuojjcVPaA1sifRYmnozUa/ZerdC0=
+
+-->
