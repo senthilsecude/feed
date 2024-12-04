@@ -10,7 +10,7 @@
     <manifest-digest sha256new="DQOGM4NICYMXQZU6VH323FTF7WSGQUHC5QTGBSFTKUEACLE5KVTA" />
     <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile.zip" size="15365448" type="application/zip" />
   </implementation>
-  <implementation version="2.0" stability="stable" id="sha256new_SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q">
+  <implementation arch="Windows-x86_64" version="2.0" stability="stable" id="sha256new_SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q">
     <requires interface="D:\work\zeroinstall\mip_sdk\mipsdk.xml" version="1.14.150" distribution="Windows" />
     <manifest-digest sha256new="SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q" />
     <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile1.zip" size="923401" type="application/zip" />
@@ -18,6 +18,6 @@
   <entry-point command="run" binary-name="hc.mipfile" />
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJnT+UzAAoJEIaH8txZyVYT1EgH+wc3SZolA99haJsNVeOxFuNqoJ+yOs42n/PKr/dj+L0J/hxiAydmaWuaUo23kNahlcEWPWeLTggjddGMOtjjgzdpAuJvVqFWj74LzCBJ1qdMBUDxXEVyqrPw5ZuBpD6Q8ofE2FqnLEEaKqoU0B5EJuzk5GbrxwX6D+HOhvdf3Oi1bN6+uFm3iHbEvhx3EKsoN4Z4RszVSI8Csn1Yv/iVzM6tNZD0dCxptw6UpTBnWDdS6TPqmhxDAfa1ckT1ZdhvSlGK60vkuG4o/O577qZaFBAHl9CAslPfABC5PRjFGf2dZzl8weYHgUZe6mewBjEmCa8QVkaRQosfSEC84YVCnME=
+iQEcBAABAgAGBQJnT+b8AAoJEIaH8txZyVYTNaAIAJ32FfY2h8UBgMG1jI0jRKXlsIPzA2CzvqzxOu1NzBd4iPM8TMK/XNc/CAReqMm5nrIEB5Uc9OF6Zbd7/XIPAEzOGK4k7mVGvV1jZ84XZ+OR71ayik3k6GG8MEJDBsokDqdCQRuisbQ/sEg9pWO9wimzIRP5lYwSiZ8J2VOyGgfGNhkIV5BNPqj+zTXmdSuQIa6no7aFxqJrTmlmjUlLQiwKCH4seCtxfV5JkdfNsxfntoyZnj3clpFoIsjQ0jdTT/QL/9c2Dv3tHMigmF6y+vNXzsZQTprk5VGntwUIWCTcEclGCs8coItALC9KWytWdXDrsmsPF1YSscE49yjSE/g=
 
 -->
