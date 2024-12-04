@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/senthilsecude/feed/refs/heads/main/mipfilefeed.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/senthilsecude/feed/master/mipfilefeed.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Mip decryptor</name>
   <summary xml:lang="en">Decryptor</summary>
   <category>Office</category>
@@ -11,14 +11,18 @@
     <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile.zip" size="15365448" type="application/zip" />
   </implementation>
   <implementation arch="Windows-*" version="2.0" stability="stable" id="sha256new_SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q">
-    <requires interface="D:\work\zeroinstall\mip_sdk\mipsdk.xml" version="1.14.150" distribution="Windows" />
-    <command name="run" path="hc.mipfile.exe" />
+    <requires interface="D:\work\zeroinstall\mip_sdk\mipsdk.xml" version="1.14.150">
+		<environment insert="bins\release\amd64" name="PATH"/>
+	</requires>
+    <command name='run'
+         path='D:\Program Files\Autodesk\AutoCAD 2024\acad.exe'>
+    </command>
     <manifest-digest sha256new="SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q" />
     <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile1.zip" size="923401" type="application/zip" />
   </implementation>
-  <entry-point command="run" binary-name="hc.mipfile" />
+  <entry-point command="run" binary-name="acad.exe" />
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJnT/P7AAoJEIaH8txZyVYTuFYH/0z63DmZs6g1aw7nKSfk0kJ82BSkIWstkINl4wrr9QMu6hD7nYWaOxIWhvxm1JyX7hIqhZjbLLIP1BRzhsFa0pIGjaAS8BYQ/qTjRPcQLGsbew5NtFX91/Wrj/ANE+xLFVbsqB95nugU+MwR3zGOfoQMlylwBF/8P4Yh5dsZP3if3wyCYA0YVilK98cfFozpu3fTrEKzNViggkHvdxYGcO/vd0sFqA/7zR5Jg/scPnUc2KFtk5a+tZ+8XF/DIQbpmxKzNpeRI282pfktJQHr2xHEPE28usiryyTkhlJ9qLCdQqRD12ley2T+tdb7w7zTHQw2dzSjxGj2xfTW4BGIvbw=
+iQEcBAABAgAGBQJnT/T0AAoJEIaH8txZyVYTmEMH/2CSBRQDd0wn1XCtFl82VwgBBSTzvyyk62NKDJthnzpefBdSqXliojG74Tv3ETCNY94Ew289fKnRPkJ9MONZzWeGJ9Q3PSHE0RkBH7RJCCWNMFQuUScLhQg56lyw4iMXvmNiY2pAPwpjXs0Eo/1dLgmHxZtbZB1aWPQnThhJYKosMoo2mcddud9GYQn73EpBq94diMKN2HNekEDSYp8iYOZnKRkY8xTMFJriiZCBwVu+j12K7DmSbu26v9Ss2BYmWd8v0tCfssZq8I39R9Evc/r5WnpK2sIudetHWiCOWyn+X23BgigmhSP01KCqDMmH2zWn/gVKTuOOO+8YJa2XLvo=
 
 -->
