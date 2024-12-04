@@ -12,17 +12,15 @@
   </implementation>
   <implementation arch="Windows-*" version="2.0" stability="stable" id="sha256new_SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q">
     <requires interface="D:\work\zeroinstall\mip_sdk\mipsdk.xml" version="1.14.150">
-		<environment insert="bins\release\amd64" name="PATH"/>
-	</requires>
-    <command name='run'
-         path='D:\Program Files\Autodesk\AutoCAD 2024\acad.exe'>
-    </command>
+      <environment name="PATH" insert="bins\release\amd64" />
+    </requires>
+    <command name="run" path="D:\Program Files\Autodesk\AutoCAD 2024\acad.exe" />
     <manifest-digest sha256new="SQXCYR5AOB7UOJORSTDQ74JPMO7BR2TFVR3HOR575VCLU45WSY3Q" />
     <archive href="https://raw.githubusercontent.com/senthilsecude/halocad/refs/heads/main/hc.mipfile1.zip" size="923401" type="application/zip" />
   </implementation>
   <entry-point command="run" binary-name="acad.exe" />
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJnT/T0AAoJEIaH8txZyVYTmEMH/2CSBRQDd0wn1XCtFl82VwgBBSTzvyyk62NKDJthnzpefBdSqXliojG74Tv3ETCNY94Ew289fKnRPkJ9MONZzWeGJ9Q3PSHE0RkBH7RJCCWNMFQuUScLhQg56lyw4iMXvmNiY2pAPwpjXs0Eo/1dLgmHxZtbZB1aWPQnThhJYKosMoo2mcddud9GYQn73EpBq94diMKN2HNekEDSYp8iYOZnKRkY8xTMFJriiZCBwVu+j12K7DmSbu26v9Ss2BYmWd8v0tCfssZq8I39R9Evc/r5WnpK2sIudetHWiCOWyn+X23BgigmhSP01KCqDMmH2zWn/gVKTuOOO+8YJa2XLvo=
+iQEcBAABAgAGBQJnUB4bAAoJEIaH8txZyVYT/9UIAK2UwwcZShRlSBhBRTnkVFYVZ/R4SXsJ/BGjdb1FwgJAW+VaTmXZNZ9+jOveRVv0yrgGRUM1hgZtsQPegcyixaZuSfaeWXp8Mv6KtfD0fKhG0LE9buVGOIfFJ+95Ru6qrjT5AcrTlYs071jDkmxNJeUB1U+P/85tf1VsBUW1u55sPFjLIj1rSf05TRun9lJt86JnsR3LLTxm6G9JJIoCTdiSWuYCCY7e0r2/RKZOaV+PzUfJXDdzSTb83ttXa2eVONb74OKf0DCBsHGZAZztvUcPyg9vPuqIfWpiTyhxSOwsA33lYUVFoKVkx3VJthdloLeOOCGiJgDjPJpIwV0S77o=
 
 -->
